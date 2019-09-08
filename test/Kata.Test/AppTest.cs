@@ -14,7 +14,7 @@ namespace Kata.Test
         }
 
         [Fact]
-        public void EmptyStringReturnsBub()
+        public void EmptyStringUsesBub()
         {
             string expected = "Hello, bub";
             string actual = App.GetGreeting("");
