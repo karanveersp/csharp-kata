@@ -5,9 +5,11 @@ namespace Kata
     public class Kata
     {
         /**
-        Takes an array and moves all zeroes to the end,
-        preserving the order of the other elements.
-        O(n) solution
+        <summary>
+            Takes an array and moves all zeroes to the end,
+            preserving the order of the other elements.
+            O(n) solution
+        </summary>
          */
         public static int[] MoveZeroes(int[] arr)
         {
